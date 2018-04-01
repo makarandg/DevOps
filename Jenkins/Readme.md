@@ -2,9 +2,8 @@
 Following tools required to be installed for Jenkins to work
 
 ## 1. Java
-Download java jdk from http://www.oracle.com/technetwork/java/javase/downloads/index.html for your OS and follow the instructions. 
-Make sure it works by opening the terminal and typing
-<br><code> java --version </code></br>
+
+<br><code> brew cask install caskroom/versions/java8 </code></br>
 
 ## 2. Maven
 Open the terminal and type
@@ -19,5 +18,7 @@ To test, go the bin directory and run
 Then go to the browser and connect to localhost:8080
 
 ## 4. Jenkins
+
+<br><code> brew install jenkins </code></br>
 
 
